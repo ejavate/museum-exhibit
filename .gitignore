@@ -1,0 +1,28 @@
+# Ignore personal todo tracking
+TODO.md
+# .NET build output
+bin/
+obj/
+
+# Visual Studio files
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+
+# OS and editor files
+*.DS_Store
+*.log
+*.swp
+*.tmp
+
+# Test results
+TestResults/
+
+# JetBrains and NCrunch
+*.ncrunch*
+*.resharper*
+
+# Database
+*.db
