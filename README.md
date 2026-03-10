@@ -37,11 +37,6 @@ Returns a structured report.
 - Lint, scan, and build steps
 
 ## Future Plans
--
-## TO-DO
-- [ ] Create API to send a list of alerts to the frontend
-- [ ] Create API to send all reported alerts and their reports to the frontend
-- [ ] Create Frontend
 - Integrate real AI models for report generation
 - Add persistent database
 - Build frontend dashboard
