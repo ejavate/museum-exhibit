@@ -1,4 +1,4 @@
-name: CI
+name: Build and Test
 
 permissions:
   security-events: write
@@ -7,8 +7,9 @@ permissions:
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
