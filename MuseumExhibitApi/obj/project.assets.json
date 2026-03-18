@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
+      "projectUniqueName": "C:\\Projects\\museum-exhibit-project\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
       "projectName": "MuseumExhibitApi",
-      "projectPath": "C:\\Projects\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
+      "projectPath": "C:\\Projects\\museum-exhibit-project\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
       "packagesPath": "C:\\Users\\edwar\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\museum-exhibit\\MuseumExhibitApi\\obj\\",
+      "outputPath": "C:\\Projects\\museum-exhibit-project\\museum-exhibit\\MuseumExhibitApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
