@@ -27,6 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ steps.builder-token.outputs.token }}
+          fetch-depth: 0
 
       - name: Set up .NET
         uses: actions/setup-dotnet@v4
