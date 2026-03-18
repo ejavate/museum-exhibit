@@ -1,4 +1,8 @@
+
 name: CI-Package
+permissions:
+  contents: write
+  packages: write
 
 on:
   workflow_run:
@@ -90,4 +94,4 @@ jobs:
           git commit -m "Update BOM for museum-exhibit ${{ github.sha }}" || echo "No changes to commit"
           git push
 
-# .github/scripts/update_bom.py should be created to handle merging/updating bom.json as described.
+
