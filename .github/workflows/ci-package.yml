@@ -85,14 +85,13 @@ jobs:
                   commit: $commit
                 }' bom.json > bom.json.tmp && mv bom.json.tmp bom.json
 
-      - name: Create BOM update pull request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: museum-bom
-          commit-message: "Update BOM for museum-exhibit ${{ github.sha }}"
-          title: "Update BOM for museum-exhibit ${{ github.sha }}"
-          body: "Automated BOM update for museum-exhibit image ${{ github.sha }}"
-          branch: bom-update/${{ github.sha }}
+      - name: Commit and push bom.json
+        run: |
+          cd museum-bom
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bom.json
+          git commit -m "Update BOM for museum-exhibit ${{ github.sha }}" || echo "No changes to commit"
+          git push
 
 
