@@ -2,6 +2,8 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// comment: testing PR integration
+
 // Add services to the container.
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();

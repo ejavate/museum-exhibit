@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9Cbawmk/Tk=",
+  "dgSpecHash": "w8BnOwkpxNE=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
+  "projectFilePath": "C:\\Projects\\museum-exhibit-project\\museum-exhibit\\MuseumExhibitApi\\MuseumExhibitApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edwar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
     "C:\\Users\\edwar\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
