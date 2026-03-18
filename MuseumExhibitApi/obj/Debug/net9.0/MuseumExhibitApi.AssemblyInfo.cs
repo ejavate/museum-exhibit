@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MuseumExhibitApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05f181931b27ac8ad5014aa8a723f6544f74f219")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f5e96a297971bdc42f1734f3e5a5d56813d8ffe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MuseumExhibitApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MuseumExhibitApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
